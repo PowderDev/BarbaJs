@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -28,11 +28,11 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: white;
   width: 80%;
   margin: auto;
@@ -58,11 +58,11 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   background: #17181a;
 }
@@ -73,19 +73,19 @@ main {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -ms-flex-preferred-size: 25rem;
-  flex-basis: 25rem;
+      flex-basis: 25rem;
   padding-left: 5rem;
   position: relative;
 }
@@ -93,10 +93,10 @@ main {
 .hero-img {
   position: relative;
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -ms-flex-preferred-size: 25rem;
-  flex-basis: 25rem;
+      flex-basis: 25rem;
   overflow: hidden;
   overflow: hidden;
 }
@@ -105,7 +105,7 @@ main {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .fashion-span {
@@ -139,7 +139,7 @@ main {
   font-size: 1rem;
   text-decoration: none;
   -ms-flex-item-align: start;
-  align-self: flex-start;
+      align-self: flex-start;
   cursor: pointer;
 }
 
@@ -154,22 +154,22 @@ main {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   z-index: 1;
   opacity: 1;
   -webkit-clip-path: circle(50px at 100% -10%);
-  clip-path: circle(50px at 100% -10%);
+          clip-path: circle(50px at 100% -10%);
 }
 
 .nav-bar ul {
   list-style: none;
   font-size: 3rem;
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 30rem;
-  flex: 0 0 30rem;
+      -ms-flex: 0 0 30rem;
+          flex: 0 0 30rem;
 }
 
 .nav-bar ul li {
@@ -180,8 +180,8 @@ main {
 
 .nav-bar .contact {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 30rem;
-  flex: 0 0 30rem;
+      -ms-flex: 0 0 30rem;
+          flex: 0 0 30rem;
 }
 
 .nav-bar .contact h2 {
@@ -214,7 +214,7 @@ main {
   border-radius: 50%;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   pointer-events: none;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -223,20 +223,20 @@ main {
   transition-property: background, transform;
   transition-property: background, transform, -webkit-transform;
   -webkit-transform-origin: 75% 75%;
-  transform-origin: 75% 75%;
+          transform-origin: 75% 75%;
   display: none;
 }
 
 .cursor.nav-active {
   background: #567ce4;
   -webkit-transform: scale(3);
-  transform: scale(3);
+          transform: scale(3);
 }
 
 .cursor.explore-active {
   background: white;
   -webkit-transform: scale(3);
-  transform: scale(3);
+          transform: scale(3);
 }
 
 .cursor-text {
@@ -245,7 +245,7 @@ main {
   left: 50%;
   font-size: 0.5rem;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .title {
@@ -261,18 +261,18 @@ main {
   left: 0;
   mix-blend-mode: darken;
   -webkit-transform: translateY(100%);
-  transform: translateY(100%);
+          transform: translateY(100%);
 }
 
-.color-swipe1 {
+.t-swipe1 {
   background: #567ce4;
 }
 
-.color-swipe2 {
+.t-swipe2 {
   background: #a76ee7;
 }
 
-.color-swipe3 {
+.t-swipe3 {
   background: #ff8b5d;
 }
 
@@ -288,37 +288,37 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 80%;
   margin: auto;
   color: white;
   margin-top: 5rem;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   position: relative;
 }
 
 .fashion-image {
   height: 80%;
   -ms-flex-preferred-size: 30rem;
-  flex-basis: 30rem;
+      flex-basis: 30rem;
 }
 
 .fashion-image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .fashion-text {
   -webkit-box-flex: 1;
-  -ms-flex: 1 0 25rem;
-  flex: 1 0 25rem;
+      -ms-flex: 1 0 25rem;
+          flex: 1 0 25rem;
   position: relative;
 }
 
@@ -361,7 +361,7 @@ main {
   left: 0;
   top: 0;
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
 }
 
 .swipe1 {
@@ -383,20 +383,17 @@ main {
   .hero-img {
     height: 50vh;
   }
-
   .fashion-text h1 {
     font-size: 2rem;
     padding: 1rem 0rem;
   }
-
   .fashion-text p {
     font-size: 1.2rem;
   }
-
   .fashion-img img {
     height: 50vh;
     -o-object-position: top;
-    object-position: top;
+       object-position: top;
   }
 }
 
@@ -405,73 +402,60 @@ main {
     width: 100%;
     margin: 0;
   }
-
   .slide {
     display: block;
     width: 100%;
     text-align: center;
   }
-
   .hero-desc {
     padding: 0;
   }
-
   .hero-img {
     padding-top: 4rem;
   }
-
   .hero-desc h2 {
     font-size: 1.6rem;
     padding: 1rem 0rem;
   }
-
   .hero-desc p {
     padding: 2rem 1rem;
     font-size: 1rem;
     line-height: 1.5rem;
     text-align: center;
   }
-
   .explore {
     width: 60%;
     margin: auto;
   }
-
   .detail-slide {
     width: 100%;
     text-align: center;
   }
-
   .fashion-text p {
     margin-bottom: 5rem;
     padding: 0;
   }
-
   .fastion-text h1 {
     margin: 2rem 0rem;
   }
-
   .fashion-nr {
     font-size: 8rem;
   }
-
   .nav-bar {
     display: block;
   }
-
   .nav-links {
     font-size: 2rem;
     text-align: center;
   }
-
   .contact h2 {
     font-size: 3rem;
     text-align: center;
   }
-
   .contact p {
     font-size: 1.2rem;
     padding: 2rem;
     text-align: center;
   }
 }
+/*# sourceMappingURL=style.css.map */
