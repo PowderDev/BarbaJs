@@ -1,3 +1,1 @@
-Run only with the server turned on (any).
-- Gsap.js
-- Barba.js
+# Be sure to run it on a live server (e.g. "Live Server" vs code extention)
